@@ -12,16 +12,33 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RiskTrace"
         tools:targetApi="31">
+
         <activity
-            android:name=".TelaFront.TelaFormulGeral"
+            android:name=".TelaFront.TelaEscoRis"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
+
+        <activity
+            android:name=".TelaFront.TelaEscoAcid"
+            android:exported="false" />
+        <activity
+            android:name=".TelaFront.TelaEscoBiol"
+            android:exported="false" />
+        <activity
+            android:name=".TelaFront.TelaEscoQuim"
+            android:exported="false" />
+        <activity
+            android:name=".TelaFront.TelaEscoFis"
+            android:exported="false" />
+        <activity
+            android:name=".TelaFront.TelaRiscErgo"
+            android:exported="false" />
+
     </application>
 
 </manifest>
